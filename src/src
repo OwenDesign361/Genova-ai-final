@@ -1,0 +1,12 @@
+src/
+├── components/
+│   ├── layout/
+│   ├── ui/
+│   └── theme-provider.tsx
+├── lib/
+│   ├── gemini.ts
+│   └── utils.ts
+└── pages/
+    ├── home.tsx
+    ├── image-studio.tsx
+    ├── pricing.tsx
