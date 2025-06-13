@@ -1,7 +1,8 @@
+// src/components/ui/sonner.tsx
 "use client"
 
-import { useTheme } from "next-themes"
 import { Toaster as Sonner } from "sonner"
+import { useTheme } from "@/components/theme-provider" // Using our new hook
 
 type ToasterProps = React.ComponentProps<typeof Sonner>
 
